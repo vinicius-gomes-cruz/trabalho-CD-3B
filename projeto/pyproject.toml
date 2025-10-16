@@ -1,0 +1,15 @@
+[tool.poetry]
+name = "projeto"
+version = "0.1.0"
+description = ""
+authors = ["Vinicius <niciugcruz@gmail.com>"]
+readme = "README.md"
+
+[tool.poetry.dependencies]
+python = "^3.12"
+streamlit = "^1.50.0"
+
+
+[build-system]
+requires = ["poetry-core"]
+build-backend = "poetry.core.masonry.api"
